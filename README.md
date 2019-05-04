@@ -1,35 +1,67 @@
 ## Clash for Windows
 
-![Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/blob/master/imgs/demo3.png?raw=true)
+![Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/blob/master/imgs/demo4.png?raw=true)
 
-[使用说明](https://docs.cfw.lbyczf.com/) | [English](https://github.com/Fndroid/clash_for_windows_pkg/blob/master/README_ENG.md)
+<div>
+  <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">
+    <img src="https://img.shields.io/github/release/fndroid/clash_for_windows_pkg.svg?color=%230090ff&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">
+    <img src="https://img.shields.io/github/release-date/fndroid/clash_for_windows_pkg.svg?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">
+    <img src="https://img.shields.io/github/downloads/fndroid/clash_for_windows_pkg/latest/total.svg?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/Fndroid/clash_for_windows_pkg/issues">
+    <img src="https://img.shields.io/github/issues/fndroid/clash_for_windows_pkg.svg?style=for-the-badge" />
+  </a>
+</div>
 
-### 名词
-- Clash :  是一个面向全平台的代理客户端，[Github](https://github.com/Dreamacro/clash)
-- Clash for Windows :  此项目，一个Clash的Windows用户图形界面
+### Keywords
+- Clash : A multi-platform & rule-base tunnel, [Github](https://github.com/Dreamacro/clash)
+- ClashX for Mac : A GUI of Clash on macOS, [Github](https://github.com/yichengchen/clashX)
+- **Clash for Windows :  This project, a GUI of Clash on Windows**
 
-### 下载安装
-[Clash for Windows下载](https://github.com/Fndroid/clash_for_windows_pkg/releases)
+### Installation
+[Download Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 
-### 首次启动
-首次启动软件会自动下载对应的依赖文件并重启一次，默认配置文件提供一个简单的Shadowsocks本地socks5节点，请根据实际情况修改配置文件
+### Initial start
+The first time you start the software, corresponding dependent files will be automatically downloaded and restarted. The default configuration file provides a simple Shadowsocks local socks5 proxy. Please modify the configuration file according to the actual situation.
 
-### 配置文件格式
- [config.yml格式参考](https://github.com/Dreamacro/clash#config)
- 
-> 可在Clash for Windows首页点击**Home Directory**进入配置文件目录进行修改，或直接使用UI编辑
+### Importing profiles
 
-### 错误排查
-Clash for Windows运行后，如左下角出现**Disconnected to Clash**字样，表示GUI无法启动Clash核心进程，通常情况是配置文件存在错误导致的，此时可以进入配置文件目录，打开目录中**logs**文件夹，并选取最新的log进行排错
+#### Local file (Drag & Drop)
 
-### 目前功能
-- 显示配置信息
-- 切换分流模式
-- 切换策略组节点
-- 节点批量延迟测试
-- 日志输出
-- 节点按配置排序
-- 软件重启恢复之前的节点选择
-- 配置文件托管
-- 支持UI修改配置
+![](https://github.com/Fndroid/clash_for_windows_pkg/blob/master/imgs/drop.gif?raw=true)
 
+#### Remote file (Download from URL)
+
+![](https://github.com/Fndroid/clash_for_windows_pkg/blob/master/imgs/drop2.gif?raw=true)
+
+### Errors
+After Clash for Windows runs, if **Disconnected to Clash** appears in the lower left corner, it means that the GUI cannot start the Clash core process. Usually, the configuration file is incorrect. You can enter the configuration file directory and open the **logs** directory. Then select the latest log for troubleshooting.
+
+### Features
+- Displaying core information
+- Switching profile
+- Switching policy mode
+- Switching proxy
+- Testing latency
+- Saving logs
+
+### Licenses
+- [axios/axios](https://github.com/axios/axios) (MIT)
+- [mafintosh/tar-stream](https://github.com/mafintosh/tar-stream) (MIT)
+- [mathiasbynens/emoji-regex](https://github.com/mathiasbynens/emoji-regex) (MIT)
+- [sindresorhus/got](https://github.com/sindresorhus/got) (MIT)
+- [lodash/lodash](https://github.com/lodash/lodash) (MIT)
+- [moment/moment](https://github.com/moment/moment) [MIT]
+- [jrop/nedb-promise](https://github.com/jrop/nedb-promise) (ISC)
+- [ironSource/node-regedit](https://github.com/ironSource/node-regedit) (MIT)
+- [julianshapiro/velocity](https://github.com/julianshapiro/velocity) (MIT)
+- [vuejs/vue](https://github.com/vuejs/vue) (MIT)
+- [SimulatedGREG/vue-electron](https://github.com/SimulatedGREG/vue-electron) (ISC)
+- [vuejs/vue-router](https://github.com/vuejs/vue-router) (MIT)
+- [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) (MIT)
+- [vuejs/vuex](https://github.com/vuejs/vuex) (MIT)
+- [eemeli/yaml](https://github.com/eemeli/yaml) (ISC)
